@@ -1,0 +1,411 @@
+@media (min-width: 279px) and (max-width: 319px){
+/* CSS CODE START  */
+.header .navbar-expand-lg .navbar-nav .nav-item .active {
+    background: url(../images/underline.png) left bottom no-repeat;
+    background-size: auto;
+    }
+    .header .navbar-expand-lg .navbar-nav .nav-link {
+        margin: 0px;
+    }
+    .banner {
+        width: 100%;
+        padding: 60px 0px;
+    }
+    .banner h1 {
+        font-size: 26px;
+        line-height: 1.3em;
+    }
+    .banner p{
+        font-size: 9px;
+    }
+    .banner h4 {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 500;
+        color: #08c;
+        letter-spacing: 1px;
+        margin: 0px 0px 10px 0px;
+    }
+    .banner .double-btn .btn-primary{
+        font-size: 6px;
+        padding: 15px 20px;
+    }
+    .banner .double-btn .btn-info {
+        padding: 15px 20px;
+        font-size: 6px;
+        margin: 0px;
+    }
+    .banner .double-btn{
+        padding: 20px 0px 0px;
+    }
+    .features {
+        width: 100%;
+        padding: 30px 0px;
+    }
+    .features .title h1{
+        font-size: 24px;
+        margin: 0px;
+    }
+    .features .title h4 {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        color: #08c;
+        letter-spacing: 1px;
+    }
+    .features .inner-features {
+        padding: 20px 0px;
+    }
+    .features {
+    width: 100%;
+    padding: 40px 0px;
+    }
+    .details {
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .details .inner-details h1 {
+        font-size: 22px;
+        margin: 0px;
+    }
+    .details .inner-details h4 {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        color: #08c;
+        letter-spacing: 1px;
+        margin: 0px 0px 10px 0px;
+    }
+    .about{
+        padding: 30px 0px;
+    }
+    .about .inner-about h1 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0px 0px 0px;
+    }
+    .about .inner-about h4 {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        color: #08c;
+        letter-spacing: 1px;
+        margin: 0px 0px 10px 0px;
+    }
+    .about .inner-about p{
+        font-size: 9px;
+        margin: 0px 0px 15px 0px;
+    }
+    .slider{
+        padding: 40px 0px;
+    }
+    .slider .title h1 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0px 0px 0px 0px;
+        color: #fff;
+    }
+    .slider .title h4 {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        color: #08c;
+        letter-spacing: 1px;
+        margin: 0px 0px 10px 0px;
+    }
+    .slider .owl-carousel{
+        padding: 30px 0px;
+    }
+    .slider .owl-carousel h4{
+        font-size: 16px;
+        line-height: 1.4em;
+    }
+    .slider .client-info {
+        width: 100%;
+        padding: 5px 0px;
+    }
+    .owl-carousel .owl-item img{
+        margin-top: 20px;
+    }
+    .owl-carousel .owl-item img{
+        font-size: 18px;
+    }
+    .eyecatcher h2 {
+        color: #fff;
+        font-size: 18px;
+        font-weight: 400;
+    }
+    .eyecatcher .double-btn .btn-primary {
+        padding: 15px 20px;
+        font-size: 6px;
+    }
+    .eyecatcher .double-btn .btn-info {
+        padding: 15px 20px;
+        font-size: 6px;
+        margin: 0px;
+    }
+    .plans {
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .plans .title h1 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0px 0px 15px 0px;
+    }
+    .plans .title h4 {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        color: #08c;
+        letter-spacing: 1px;
+        margin: 0px 0px 10px 0px;
+    }
+    .plans .price-box{
+        margin: 0px 0px 25px;
+    }
+    .contact {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .contact .title h1 {
+        font-size: 24px;
+        font-weight: 600;
+        margin: 0px 0px 15px 0px;
+    }
+    .contact .title h4 {
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: 600;
+        color: #08c;
+        letter-spacing: 1px;
+        margin: 0px 0px 10px 0px;
+    }
+    .contact .inner-contact {
+        width: 100%;
+        margin: 0px 0px 40px 0px;
+    }
+    .main-form {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        margin: 0px 0px -100px;
+        padding: 30px 30px;
+        background-color: #191919;
+    }
+    .main-form .form-control {
+        color: #444348;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 15px;
+        border: 1px solid #444348;
+        background: transparent;
+    }
+    .main-form .btn-primary {
+        padding: 15px 20px;
+        font-weight: 700;
+        border-radius: 0px !important;
+        background: #008ed6;
+        color: #fff;
+        font-size: 12px;
+    }
+    .footer .main-footer p {
+        color: #444348;
+        font-size: 10px;
+        font-weight: 600;
+    }
+/* CSS CODE END */
+}
+@media (min-width: 320px) and (max-width: 480px){
+/* CSS CODE START  */
+    .header .navbar-expand-lg .navbar-nav .nav-item .active {
+    background: url(../images/underline.png) left bottom no-repeat;
+    background-size: auto;
+    }
+    .header .navbar-expand-lg .navbar-nav .nav-link {
+        margin: 0px;
+    }
+    .banner {
+        width: 100%;
+        padding: 60px 0px;
+    }
+    .banner h1 {
+        font-size: 32px;
+        line-height: 1.3em;
+    }
+    .banner p{
+        font-size: 12px;
+    }
+    .banner .double-btn .btn-primary{
+        font-size: 12px;
+        padding: 15px 20px;
+    }
+    .banner .double-btn .btn-info {
+        padding: 15px 20px;
+        font-size: 12px;
+    }
+    .banner .double-btn{
+        padding: 20px 0px 0px;
+    }
+    .features {
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .features .title h1{
+        font-size: 32px;
+    }
+    .features .inner-features {
+        padding: 20px 0px;
+    }
+    .features {
+    width: 100%;
+    padding: 40px 0px;
+    }
+    .details .inner-details h1 {
+        font-size: 32px;
+        margin: 0px;
+    }
+    .about{
+        padding: 30px 0px;
+    }
+    .about .inner-about h1 {
+        font-size: 32px;
+        font-weight: 600;
+        margin: 0px 0px 0px;
+    }
+    .about .inner-about p{
+        font-size: 12px;
+        margin: 0px 0px 15px 0px;
+    }
+    .slider{
+        padding: 40px 0px;
+    }
+    .slider .title h1 {
+        font-size: 32px;
+        font-weight: 600;
+        margin: 0px 0px 0px 0px;
+        color: #fff;
+    }
+    .slider .owl-carousel{
+        padding: 30px 0px;
+    }
+    .slider .owl-carousel h4{
+        font-size: 18px;
+        line-height: 1.4em;
+    }
+    .owl-carousel .owl-item img{
+        margin-top: 20px;
+    }
+    .owl-carousel .owl-item img{
+        font-size: 18px;
+    }
+    .eyecatcher .double-btn .btn-primary {
+        padding: 15px 20px;
+        font-size: 12px;
+    }
+    .eyecatcher .double-btn .btn-info {
+        padding: 15px 20px;
+        font-size: 12px;
+    }
+    .plans {
+        width: 100%;
+        padding: 40px 0px;
+    }
+    .plans .title h1 {
+        font-size: 32px;
+        font-weight: 600;
+        margin: 0px 0px 15px 0px;
+    }
+    .plans .price-box{
+        margin: 0px 0px 25px;
+    }
+    .contact {
+        width: 100%;
+        padding: 20px 0px;
+    }
+    .contact .title h1 {
+        font-size: 32px;
+        font-weight: 600;
+        margin: 0px 0px 15px 0px;
+    }
+    .contact .inner-contact {
+        width: 100%;
+        margin: 0px 0px 40px 0px;
+    }
+    .main-form {
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        margin: 0px 0px -100px;
+        padding: 40px 70px;
+        background-color: #191919;
+    }
+    .main-form .btn-primary {
+        padding: 15px 20px;
+        font-weight: 700;
+        border-radius: 0px !important;
+        background: #008ed6;
+        color: #fff;
+        font-size: 12px;
+    }
+    .footer .main-footer p {
+        color: #444348;
+        font-size: 14px;
+        font-weight: 600;
+    }
+/* CSS CODE END  */
+}
+@media (min-width: 481px) and (max-width: 676px){
+/* CSS CODE START  */
+.header .navbar-expand-lg .navbar-nav .nav-item .active {
+    background: url(../images/underline.png) left bottom no-repeat;
+    background-size: auto;
+    }
+.features {
+    width: 100%;
+    padding: 30px 0px;
+}
+.features .inner-features {
+    width: 100%;
+    padding: 30px 0px;
+    text-align: center;
+}
+.plans {
+    width: 100%;
+    padding: 40px 0px;
+}
+.plans .price-box{
+    margin: 0px 0px 25px;
+}
+.contact {
+    width: 100%;
+    padding: 30px 0px;
+}
+.contact .inner-contact {
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 40px 0px;
+}
+/* CSS CODE END  */
+}
+@media (min-width: 677px) and (max-width: 1024px){
+/* CSS CODE START  */
+    .header .navbar-expand-lg .navbar-nav .nav-item .active {
+    background: url(../images/underline.png) left bottom no-repeat;
+    background-size: auto;
+    }
+    .eyecatcher h2 {
+        color: #fff;
+        font-weight: 400;
+        margin: 0px 0px 15px 0px;
+    }
+    .plans .price-box{
+        margin: 0px 0px 25px;
+    }
+    .contact .inner-contact {
+        width: 100%;
+        text-align: center;
+        margin: 0px 0px 45px 0px;
+    }
+/* CSS CODE END */
+}

@@ -1,0 +1,522 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-size: 14px;
+    line-height: 24px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+h1, h2, h3, h4, h5, h6{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+.navbar-toggler {
+    background-color: #008ed6 !important;
+}
+.navbar-toggler .fa{
+    color: #fff;
+}
+
+/* HEADER  */
+.header .fixed-top{
+    width:100%;
+    background-color: rgba(0, 0, 0, 0.6)
+}
+.header{
+    width: 100%;
+    background: url(../images/bg.png) center top no-repeat;
+    background-size: cover;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+    margin: 0px 0px 0px 15px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:hover{
+    background: url(../images/underline.png) center bottom no-repeat;
+    background-size: auto;
+}
+.header .navbar-expand-lg .navbar-nav .nav-link:focus{
+    background: url(../images/underline.png) center bottom no-repeat;
+    background-size: auto;
+}
+.header .navbar-expand-lg .navbar-nav .nav-item .active{
+    background: url(../images/underline.png) center bottom no-repeat;
+    background-size: auto;
+}
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.banner h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 500;
+    color: #08c;
+    letter-spacing: 1px;
+    margin: 0px 0px 15px 0px;
+}
+.banner h1{
+    color: #fff;
+    font-size: 50px;
+    margin: 0px 0px 15px 0px ;
+}
+.banner p{
+    color: #999;
+    font-size: 15px;
+    margin: 0px 0px 15px 0px;
+}
+.banner .double-btn{
+    width: 100%;
+    padding: 40px 0px ;
+}
+.banner .double-btn .btn-primary{
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #008ed6;
+    text-decoration: none;
+    margin: 0px 10px 0px 0px;
+}
+.banner .double-btn .btn-primary:hover{
+    background: transparent;
+    border: 1px solid #999;
+    transition: .7s;
+}
+.banner .double-btn .btn-info{
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #999;
+    color: #fff;
+    margin: 0px 0px 0px 10px;
+}
+.banner .double-btn .btn-info:hover{
+    background-color: #008ed6;
+    border: none;
+    transition: .7s;
+}
+/* HEADER  */
+/* FEATURE */
+.features{
+    width: 100%;
+    padding: 60px 0px;
+}
+.features .title{
+    width: 100%;
+    text-align: center;
+}
+.features .title h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #08c;
+    letter-spacing: 1px;
+}
+.features .title h1{
+    font-size: 50px;
+    font-weight: 500;
+    margin: 0px 0px 15px 0px;
+}
+.features .inner-features{
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+}
+.features .inner-features img{
+    margin: 0px 0px 20px 0px;
+}
+.features .inner-features h3{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 0px 0px 15px 0px;
+}
+.features .inner-features p{
+    color: #999;
+    font-size: 15px;
+}
+/* FEATURE */
+/* DETAILS  */
+.details{
+    width: 100%;
+    padding: 60px 0px;
+}
+.details .inner-details{
+    width: 100%;
+}
+.details .inner-details h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #08c;
+    letter-spacing: 1px;
+    margin: 0px 0px 15px 0px;
+}
+
+.details .inner-details h1{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0px 0px 15px 0px;
+}
+.details .inner-details p{
+    color: #999;
+    font-size: 15px;
+    margin: 15px 0px 0px 0px;
+}
+.details .detail-icons{
+    width: 100%;
+}
+.details .detail-icons P{
+    color: #000;
+    font-weight: 500;
+}
+.details .detail-icons .icon-img{
+    margin: 0px 15px 0px 0px;
+}
+/* DETAILS  */
+/* ABOUT  */
+.about{
+    width: 100%;
+    padding: 60px 0px;
+    background: #f2f2f2;
+}
+.about .inner-about{
+    width: 100%;
+}
+.about .inner-about h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #08c;
+    letter-spacing: 1px;
+    margin: 0px 0px 15px 0px;
+}
+.about .inner-about h1{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0px 0px 15px 0px;
+}
+.about .inner-about p{
+    color: #999;
+    font-size: 15px;
+    margin: 15px 0px 0px 0px;
+}
+/* ABOUT  */
+/* SLIDER  */
+.slider{
+    width: 100%;
+    padding: 60px 0px;
+    background: url(../images/Testimonials.png) center top no-repeat;
+    background-size: cover;
+}
+.slider .title{
+    width: 100%;
+    text-align: center;
+}
+.slider .title h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #08c;
+    letter-spacing: 1px;
+    margin: 0px 0px 15px 0px;
+}
+.slider .title h1{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0px 0px 15px 0px;
+    color: #fff;
+}
+.slider .owl-carousel{
+    width: 100%;
+    padding: 40px 0px;
+}
+.slider .owl-carousel h4{
+    font-style: italic;
+    color: #fff;
+    font-size: 22px;
+    line-height: 34px;
+    margin: 0px 0px 25px 0px;
+}
+.slider .client-info{
+    width: 100%;
+    padding: 10px 0px;
+}
+.slider .client-info h4{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    font-style: normal;
+}
+.slider .client-info h5{
+    font-size: 18px;
+    color: #fff;
+    font-style: normal;
+}
+/* SLIDER */
+/* EYECATHER  */
+.eyecatcher{
+    width: 100%;
+    padding: 60px 0px;
+    background: #15141a;
+}
+.eyecatcher h2{
+    color: #fff;
+    font-weight: 400;
+}
+.eyecatcher h2 span{
+    font-weight: 600;
+}
+.eyecatcher .double-btn{
+    width: 100%;
+    padding: 10px 0px;
+}
+.eyecatcher .double-btn .btn-primary{
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #008ed6;
+    text-decoration: none;
+    margin: 0px 10px 0px 0px;
+}
+.eyecatcher .double-btn .btn-primary:hover{
+    background: transparent;
+    border: 1px solid #999;
+    transition: .7s;
+}
+.eyecatcher .double-btn .btn-info{
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+    border: 1px solid #999;
+    color: #fff;
+    margin: 0px 0px 0px 10px;
+}
+.eyecatcher .double-btn .btn-info:hover{
+    background-color: #008ed6;
+    border: none;
+    transition: .7s;
+}
+/* EYECATHER  */
+/* PLANS  */
+.plans{
+    width: 100%;
+    padding: 60px 0px;
+}
+.plans .title{
+    width: 100%;
+    text-align: center;
+}
+.plans .title h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #08c;
+    letter-spacing: 1px;
+    margin: 0px 0px 15px 0px;
+}
+.plans .title h1{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0px 0px 25px 0px;
+}
+.plans .title img{
+    margin-bottom: 40px;
+}
+.plans .price-box{
+    width: 100%;
+    text-align: center;
+    border: 1px solid #999;
+}
+.plans .price-header{
+    width: 100%;
+    border-bottom: 1px solid #999;
+    padding: 15px;
+
+}
+.plans .price-header h4{
+    font-weight: 700;
+}
+.plans .main-price h1{
+    font-size: 65px;
+    font-weight: 700;
+}
+.plans .main-price{
+    width: 100%;
+    padding: 15px;
+    border-bottom: 1px solid #999;
+    
+}
+.plans .price-content{
+    padding: 15px;
+    width: 100%;
+}
+.plans .price-content p{
+    font-size: 15px;
+    color: #999;
+}
+.plans .price-content p span{
+    color: #008ed6;
+}
+.plans .price-content .btn-primary{
+    background: transparent;
+    border: 1px solid #999;
+    border-radius: 5px;
+    color: #008ed6;
+    padding: 10px 30px;
+    font-weight: 700;
+}
+.plans .price-content .btn-primary:hover{
+    background-color: #008ed6;
+    color: #fff;
+    transition: .7s;
+    border: none;
+}
+.price-box:hover .price-header{
+    background: #fff
+
+}
+.price-box:hover .price-header h4{
+    color: #008ed6
+}
+.price-box:hover .main-price{
+    background-color: #008ed6;
+
+}
+.price-box:hover .main-price h1{
+    color: #fff;
+}
+.price-box:hover .main-price p{
+    color: #fff;
+
+}
+.price-box:hover .price-content .btn-primary{
+    background-color: #008ed6;
+    color: #fff;
+
+    border: none;
+}
+/* PLANS  */
+/* CONTACT  */
+.contact{
+    width: 100%;
+    padding: 60px 0px;
+}
+.contact .title{
+    width: 100%;
+    text-align: center;
+}
+.contact .title h4{
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight: 600;
+    color: #08c;
+    letter-spacing: 1px;
+    margin: 0px 0px 15px 0px;
+}
+.contact .title h1{
+    font-size: 44px;
+    font-weight: 600;
+    margin: 0px 0px 25px 0px;
+}
+.contact .title img{
+    margin: 0px 0px 50px 0px;
+}
+.contact .inner-contact{
+    width: 100%;
+    text-align: center;
+    margin: 0px 0px 80px 0px;
+}
+.contact .inner-contact img{
+    margin: 0px 0px 20px 0px;
+}
+.contact .inner-contact h3{
+    font-size: 18px;
+    color: #999;
+}
+.main-form{
+    width: 100%;
+    position: relative;
+    z-index: 1;
+    margin: 0px 0px -100px;
+    padding: 70px 90px;
+    background-color: #191919;
+}
+.main-form .form-control{
+    color: #444348;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 15px;
+    border: 1px solid #444348;
+    background: transparent;
+}
+.main-form .form-control:focus{
+    border: 1px solid #444348;
+    background: transparent;
+    box-shadow: 0 0 0 0.0rem rgb(13 110 253 / 25%)
+}
+.main-form .btn-primary{
+    padding: 15px 30px;
+    font-weight: 700;
+    border-radius: 0px !important;
+    background: #008ed6;
+    color: #fff;
+}
+.main-form .btn-primary:hover{
+    background-color: #444348;
+    color: #008ed6;
+    transition: .7s;
+    border: none;
+}
+/* CONTACT  */
+/* FOOTER  */
+.footer{
+    width: 100%;
+    text-align: center;
+    padding: 40px 0px;
+    background-color: #15141a;
+}
+.footer .icons{
+    width: 100%;
+}
+.footer .icons li{
+    list-style: none;
+    display: inline-block;
+}
+.footer .icons li a{
+    color: #444348;
+    font-size: 24px;
+    margin: 0px 10px 0px
+}
+.footer .icons li a:hover{
+    color: #008ed6;
+    transition: .7s;
+}
+.footer .main-footer{
+    width: 100%;
+}
+.footer .main-footer p{
+    color: #444348;
+    font-size: 16px;
+    font-weight: 600;
+}
